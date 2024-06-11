@@ -20,7 +20,7 @@ nav ul {
     list-style-type: none;
     height: 65px;
     background-color: black;
-    color: aliceblue;
+    color: white;
 }
 
 nav ul li {
@@ -41,7 +41,16 @@ nav ul li {
 }
 
 .container {
-    min-height: 73vh;
+    min-height: 61vh;
+    background-color: black;
+    color: white;
+    font-family: "Roboto","NatoSans";
+    display: flex;
+    width: 80%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(background.jpg);
 }
 
 .bottom {
@@ -69,4 +78,11 @@ nav ul li {
 #myprogressbar {
     width: 80vw;
     text-align: center;
+}
+.songItem{
+height: 50px;
+
+}
+.songItem img{
+    
 }

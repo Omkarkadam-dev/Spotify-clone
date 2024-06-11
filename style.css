@@ -54,13 +54,15 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+
 }
-.icons{
+
+.icons {
     margin-top: 14px;
-   
+
 }
-.icons i{
+
+.icons i {
     cursor: pointer;
 }
 

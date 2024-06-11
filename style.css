@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: antiquewhite;
 }
@@ -8,15 +9,62 @@ body {
     margin: 0;
     padding: 0;
 }
-nav{
-    font-family: "Roboto","NatoSans";
+
+nav {
+    font-family: "Roboto", "NatoSans";
 }
-nav ul{
+
+nav ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
     height: 65px;
     background-color: black;
+    color: aliceblue;
 }
-.brand img{
-    width: 44px;
+
+nav ul li {
+    padding: 0 12px;
+
+}
+
+.brand img {
+    width: 55px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 73vh;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.icons{
+    margin-top: 14px;
+   
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myprogressbar {
+    width: 80vw;
+    text-align: center;
 }

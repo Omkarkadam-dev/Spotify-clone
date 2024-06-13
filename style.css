@@ -44,7 +44,7 @@ nav ul li {
     min-height: 61vh;
     background-color: black;
     color: white;
-    font-family: "Roboto","NatoSans";
+    font-family: "Roboto", "NatoSans";
     display: flex;
     width: 80%;
     margin: 23px auto;
@@ -79,10 +79,12 @@ nav ul li {
     width: 80vw;
     text-align: center;
 }
-.songItem{
-height: 50px;
+
+.songItem {
+    height: 50px;
 
 }
-.songItem img{
-    
+
+.songItem img {
+
 }
